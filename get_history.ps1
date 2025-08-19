@@ -29,4 +29,4 @@ foreach ($Browser in $Browsers.Keys) {
 	}
 
 }
-Read-Host -Prompt "Press Enter to exit"
+pause
