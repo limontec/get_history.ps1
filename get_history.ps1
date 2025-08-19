@@ -27,4 +27,6 @@ foreach ($Browser in $Browsers.Keys) {
 	foreach ($url in $Value) {
 		Write-Host $UserName $Browser $url
 	}
+
 }
+Read-Host -Prompt "Press Enter to exit"
